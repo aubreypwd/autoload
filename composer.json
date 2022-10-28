@@ -1,12 +1,12 @@
 {
     "name": "aubreypwd/autoload",
-    "description": "Just an empty Composer package used to create autoloaded PHP.",
+    "description": "Just an empty Composer package used to create autoloaded PHP, just use create-project.",
     "type": "project",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Aubreypwd\\Autoload\\": "src/"
-        }
+        "files" : [
+            "src/autoload.php"
+        ]
     },
     "authors": [
         {
