@@ -1,0 +1,19 @@
+{
+    "name": "aubreypwd/autoload",
+    "description": "Just an empty Composer package used to create autoloaded PHP.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aubreypwd\\Autoload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aubrey Portwood",
+            "email": "code@aubreypwd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
